@@ -1,0 +1,64 @@
+{
+  "cho": {
+    "n_hiprob": 74,
+    "verdicts": {
+      "genuine": 28,
+      "genuine_other_muskogean": 1,
+      "junk": 44,
+      "partial": 1
+    },
+    "n_unique_urls_hiprob": 42,
+    "genuine_docs": 28,
+    "genuine_unique_urls": 27,
+    "genuine_domains": [
+      "app.memrise.com",
+      "choctawbible.com",
+      "choctawschool.com",
+      "gospelgo.com",
+      "incubator.m.wikimedia.org",
+      "incubator.wikimedia.org",
+      "marysrosaries.com",
+      "opus.nlpl.eu",
+      "pouemes.free.fr",
+      "seriousillness.org",
+      "wol.jw.org",
+      "www.antiwarsongs.org",
+      "www.christusrex.org",
+      "www.fisheaters.com",
+      "www.interimhealthcare.com",
+      "www.jw.org",
+      "www.touchstoneimaging.com"
+    ],
+    "genuine_by_filter_reason": {
+      "precision_wordlist": 1,
+      "char_dup_ratio": 7,
+      "list_ratio": 12,
+      "gopher_short_doc": 5,
+      "gopher_below_alpha_threshold": 3
+    },
+    "kept_docs_for_reference": 14
+  },
+  "mus": {
+    "n_hiprob": 503,
+    "verdicts": {
+      "junk": 497,
+      "genuine": 5,
+      "partial": 1
+    },
+    "n_unique_urls_hiprob": 184,
+    "genuine_docs": 5,
+    "genuine_unique_urls": 5,
+    "genuine_domains": [
+      "gospelgo.com",
+      "marysrosaries.com",
+      "www.dominickerindians.org",
+      "www.mvskokehymns.com"
+    ],
+    "genuine_by_filter_reason": {
+      "precision_wordlist": 3,
+      "char_dup_ratio": 1,
+      "gopher_short_doc": 1
+    },
+    "kept_docs_for_reference": 10
+  }
+}

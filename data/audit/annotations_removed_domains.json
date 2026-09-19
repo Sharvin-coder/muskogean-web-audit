@@ -1,0 +1,26 @@
+{
+  "schema": "Domain-level judgment of every doc in the high-confidence removed sets (GlotLID v3 still predicts the subset language with prob>=0.9). genuine = running target-language text; genuine-other-muskogean = real Muskogean text in a DIFFERENT Muskogean language than the label; partial = target-language material embedded in majority-English page; junk = not Muskogean at all. Judged by authors from doc text (see removed_hiprob_*.json).",
+  "cho": {
+    "genuine": [
+      "www.fisheaters.com", "www.christusrex.org", "pouemes.free.fr",
+      "marysrosaries.com", "gospelgo.com", "www.interimhealthcare.com",
+      "incubator.wikimedia.org", "incubator.m.wikimedia.org",
+      "cho.wikipedia.org", "app.memrise.com", "choctawschool.com",
+      "opus.nlpl.eu", "www.antiwarsongs.org", "choctawbible.com",
+      "www.jw.org", "wol.jw.org", "seriousillness.org",
+      "www.touchstoneimaging.com"
+    ],
+    "genuine_other_muskogean": {"www.unicode.org": "cic (Chickasaw UDHR misidentified as cho)"},
+    "partial": ["tatoeba.org"],
+    "notes": "everything else = junk (pseudo-Choctaw n-grams: Slavic diminutives like koshka/ishchuk, Japanese names like Itoh/akiyoshi, Hindi song syllables like chiki-chiki, domain-typo generators)"
+  },
+  "mus": {
+    "genuine": [
+      "gospelgo.com", "www.mvskokehymns.com", "marysrosaries.com",
+      "www.dominickerindians.org"
+    ],
+    "genuine_other_muskogean": {},
+    "partial": ["endangeredlanguagefund.org"],
+    "notes": "everything else = junk (v-heavy strings: Vietnamese domain names, Turkish sohbet/ceket pages, tv/vt gibberish, domain-typo generators)"
+  }
+}

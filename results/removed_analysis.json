@@ -1,0 +1,155 @@
+{
+  "cho_Latn_removed": {
+    "n_docs": 853,
+    "filter_reason": {
+      "gopher_short_doc": 494,
+      "list_ratio": 172,
+      "char_dup_ratio": 117,
+      "gopher_enough_stop_words": 36,
+      "gopher_below_alpha_threshold": 23,
+      "gopher_above_avg_threshold": 5,
+      "gopher_too_many_end_ellipsis": 3,
+      "precision_wordlist": 1,
+      "gopher_too_many_ellipsis": 1,
+      "gopher_too_many_hashes": 1
+    },
+    "median_chars": 59,
+    "n_domains": 297,
+    "top_domains": {
+      "taaasty.com": 146,
+      "about.me": 74,
+      "mishkahenner.com": 50,
+      "ashtonmitchell.com.foxmos.com": 22,
+      "www.nakedchicpics.com": 13,
+      "ikohchang.com.foxmos.com": 12,
+      "www.mydress.co.uk": 12,
+      "nakedchicpics.com": 12,
+      "incubator.wikimedia.org": 11,
+      "www.hungry.com": 10,
+      "photobucket.com": 9,
+      "www.wordmine.info": 9
+    },
+    "glotlid_v3_top15": {
+      "cho_Latn": 850,
+      "dag_Latn": 1,
+      "eng_Latn": 1,
+      "urd_Latn": 1
+    },
+    "still_target_n": 850,
+    "still_target_frac": 0.9965,
+    "still_target_domains": {
+      "taaasty.com": 146,
+      "about.me": 74,
+      "mishkahenner.com": 50,
+      "ashtonmitchell.com.foxmos.com": 22,
+      "www.nakedchicpics.com": 13,
+      "ikohchang.com.foxmos.com": 12,
+      "www.mydress.co.uk": 12,
+      "nakedchicpics.com": 12,
+      "incubator.wikimedia.org": 11,
+      "www.hungry.com": 10,
+      "photobucket.com": 9,
+      "www.wordmine.info": 9
+    },
+    "top_domain_relabel": {
+      "taaasty.com": {
+        "cho_Latn": 146
+      },
+      "about.me": {
+        "cho_Latn": 74
+      },
+      "mishkahenner.com": {
+        "cho_Latn": 50
+      },
+      "ashtonmitchell.com.foxmos.com": {
+        "cho_Latn": 22
+      },
+      "www.nakedchicpics.com": {
+        "cho_Latn": 13
+      }
+    },
+    "n_hiprob_target": 74
+  },
+  "mus_Latn_removed": {
+    "n_docs": 14255,
+    "filter_reason": {
+      "gopher_short_doc": 12657,
+      "list_ratio": 745,
+      "char_dup_ratio": 578,
+      "gopher_enough_stop_words": 231,
+      "gopher_below_alpha_threshold": 24,
+      "gopher_too_many_bullets": 9,
+      "precision_wordlist": 7,
+      "gopher_above_avg_threshold": 2,
+      "gopher_too_many_end_ellipsis": 1,
+      "gopher_too_many_hashes": 1
+    },
+    "median_chars": 15,
+    "n_domains": 952,
+    "top_domains": {
+      "xemvn.net": 6231,
+      "www.acncn.net": 2975,
+      "ehenx.com": 358,
+      "www.vrt.be": 261,
+      "app.myvet2pet.com": 212,
+      "mtv.tumblr.com": 195,
+      "www.ridewithhawthornehill.com": 130,
+      "www.nvnickverreos.com": 119,
+      "www.gocektv.com": 108,
+      "www.globethics-live.net": 101,
+      "push2check.net": 87,
+      "cervefox.net": 83
+    },
+    "glotlid_v3_top15": {
+      "mus_Latn": 14046,
+      "eng_Latn": 73,
+      "kor_Hang": 18,
+      "frp_Latn": 17,
+      "taq_Latn": 8,
+      "zxx_Latn": 7,
+      "vie_Latn": 5,
+      "sme_Latn": 4,
+      "ekk_Latn": 4,
+      "kiu_Latn": 3,
+      "trv_Latn": 3,
+      "crh_Latn": 3,
+      "atj_Latn": 2,
+      "spa_Latn": 2,
+      "fra_Latn": 2
+    },
+    "still_target_n": 14046,
+    "still_target_frac": 0.9853,
+    "still_target_domains": {
+      "xemvn.net": 6231,
+      "www.acncn.net": 2975,
+      "ehenx.com": 358,
+      "www.vrt.be": 261,
+      "app.myvet2pet.com": 212,
+      "mtv.tumblr.com": 195,
+      "www.ridewithhawthornehill.com": 130,
+      "www.nvnickverreos.com": 119,
+      "www.gocektv.com": 108,
+      "www.globethics-live.net": 101,
+      "cervefox.net": 83,
+      "www.xemvn.net": 74
+    },
+    "top_domain_relabel": {
+      "xemvn.net": {
+        "mus_Latn": 6231
+      },
+      "www.acncn.net": {
+        "mus_Latn": 2975
+      },
+      "ehenx.com": {
+        "mus_Latn": 358
+      },
+      "www.vrt.be": {
+        "mus_Latn": 261
+      },
+      "app.myvet2pet.com": {
+        "mus_Latn": 212
+      }
+    },
+    "n_hiprob_target": 503
+  }
+}

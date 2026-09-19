@@ -1,0 +1,292 @@
+{
+  "schema": {
+    "is_target_language": "yes = majority running text in the labeled language; partial = target-language material present but not majority running text (word salad, heavy boilerplate); no = not the language",
+    "genre": "bible | religious-org | wiki-canonical (Wikipedia/incubator page whose content is a canonical-text translation) | udhr | gb-index-terms (Google Books auto-generated 'common terms' word cloud) | wordlist-phrases | historical-legal | traditional-story | community",
+    "source_era": "composition era of the underlying target-language text (not crawl date)",
+    "boilerplate_frac": "rough fraction of characters that are English site boilerplate (nav, reviews, affiliate notes, UI)",
+    "content_cluster": "documents sharing the same underlying text",
+    "annotator": "authors, criteria: orthographic markers (cho: <ʊ/ʋ>, vowel underline U+0331, lexicon Chihowa/anumpa/yakni; mus: <v> for schwa, <ē>, lexicon Hesaketvmese/momen/omvtes), source identification via page text"
+  },
+  "docs": [
+    {
+      "doc_id": "fw2_cho_0",
+      "url": "https://books.google.com/books/about/A_catechism_of_the_Catholic_religion.html?id=_EBOAAAAYAAJ&hl=en",
+      "is_target_language": "partial",
+      "genre": "gb-index-terms",
+      "source_era": "19th c.",
+      "boilerplate_frac": 0.15,
+      "content_cluster": "gb-cho-catechism",
+      "evidence": "Google Books review-page boilerplate followed by alphabetized index-term cloud (achi, achufa, achukma...); no running Choctaw text"
+    },
+    {
+      "doc_id": "fw2_cho_1",
+      "url": "https://www.jw.org/cho/",
+      "is_target_language": "yes",
+      "genre": "religious-org",
+      "source_era": "contemporary",
+      "boilerplate_frac": 0.0,
+      "content_cluster": "jw-cho",
+      "evidence": "Running modern Choctaw (Yakni lawa e-ma̱ya...), JW landing page"
+    },
+    {
+      "doc_id": "fw2_cho_2",
+      "url": "https://www.bible.com/cs/bible/1927/GEN.37.CHTW",
+      "is_target_language": "yes",
+      "genre": "bible",
+      "source_era": "19th c. ABS portions (bible.com version id 1927)",
+      "boilerplate_frac": 0.01,
+      "content_cluster": "bible-com-gen37",
+      "evidence": "Genesis chapter, ABS Choctaw Mark/Genesis portions (bible.com version id 1927, CHTW), full running text"
+    },
+    {
+      "doc_id": "fw2_cho_3",
+      "url": "https://omniglot.com/babel/choctaw.htm",
+      "is_target_language": "yes",
+      "genre": "bible",
+      "source_era": "1867 (ABS Choctaw Pentateuch)",
+      "boilerplate_frac": 0.25,
+      "content_cluster": "omniglot-babel-cho",
+      "evidence": "Tower of Babel text, source line names American Bible Society 1867; English intro + affiliate-link boilerplate"
+    },
+    {
+      "doc_id": "fw2_cho_4",
+      "url": "https://incubator.wikimedia.org/wiki/Wp/cho/Nan_%CA%8Alhpisa_pokoli",
+      "is_target_language": "yes",
+      "genre": "wiki-canonical",
+      "source_era": "19th c. orthography",
+      "boilerplate_frac": 0.03,
+      "content_cluster": "wiki-ten-commandments",
+      "evidence": "Ten Commandments in Choctaw on Wikipedia incubator"
+    },
+    {
+      "doc_id": "fw2_cho_5",
+      "url": "https://books.google.com/books/about/Complete_Choctaw_Definer.html?id=MHUyAQAAMAAJ",
+      "is_target_language": "partial",
+      "genre": "gb-index-terms",
+      "source_era": "1892 (Watkins, Complete Choctaw Definer)",
+      "boilerplate_frac": 0.25,
+      "content_cluster": "gb-cho-definer",
+      "evidence": "Google Books boilerplate + index-term cloud; language_score 0.427"
+    },
+    {
+      "doc_id": "fw2_cho_6",
+      "url": "https://choctawbible.com/cho/chokka",
+      "is_target_language": "yes",
+      "genre": "religious-org",
+      "source_era": "contemporary",
+      "boilerplate_frac": 0.05,
+      "content_cluster": "choctawbible-landing",
+      "evidence": "Choctaw Bible Translation Committee landing page, running modern Choctaw"
+    },
+    {
+      "doc_id": "fw2_cho_7",
+      "url": "https://www.bible.com/bible/1927/MRK.1.CHTW",
+      "is_target_language": "yes",
+      "genre": "bible",
+      "source_era": "19th c. ABS portions (bible.com version id 1927)",
+      "boilerplate_frac": 0.01,
+      "content_cluster": "bible-com-mrk1",
+      "evidence": "Mark 1, ABS Choctaw portions (bible.com id 1927, CHTW), full running text"
+    },
+    {
+      "doc_id": "fw2_cho_8",
+      "url": "https://incubator.m.wikimedia.org/wiki/Wp/cho/Nan_%CA%8Alhpisa_pokoli",
+      "is_target_language": "yes",
+      "genre": "wiki-canonical",
+      "source_era": "19th c. orthography",
+      "boilerplate_frac": 0.03,
+      "content_cluster": "wiki-ten-commandments",
+      "evidence": "Mobile-mirror near-duplicate of fw2_cho_4 (ʊ→ʋ variant)"
+    },
+    {
+      "doc_id": "fw2_cho_9",
+      "url": "https://omniglot.com/babel/choctaw.htm",
+      "is_target_language": "yes",
+      "genre": "bible",
+      "source_era": "1867 (ABS Choctaw Pentateuch)",
+      "boilerplate_frac": 0.3,
+      "content_cluster": "omniglot-babel-cho",
+      "evidence": "Same URL as fw2_cho_3, different crawl/portion; explicit source citation to ABS 1867"
+    },
+    {
+      "doc_id": "fw2_cho_10",
+      "url": "https://choctawbible.com/cho",
+      "is_target_language": "yes",
+      "genre": "religious-org",
+      "source_era": "contemporary",
+      "boilerplate_frac": 0.2,
+      "content_cluster": "choctawbible-landing",
+      "evidence": "Near-duplicate of fw2_cho_6 plus English donation paragraph"
+    },
+    {
+      "doc_id": "fw2_cho_11",
+      "url": "http://cho.wikipedia.org/wiki/Ai%CA%8Alhepiesa_Makosh_%C6%B1lhpisa",
+      "is_target_language": "yes",
+      "genre": "udhr",
+      "source_era": "20th c. translation",
+      "boilerplate_frac": 0.02,
+      "content_cluster": "wiki-udhr-art1",
+      "evidence": "UDHR Article 1 in Choctaw"
+    },
+    {
+      "doc_id": "fw2_cho_12",
+      "url": "https://incubator.m.wikimedia.org/wiki/Wp/cho/Ai%CA%8Alhepiesa_Makosh_%C6%B1lhpisa",
+      "is_target_language": "yes",
+      "genre": "udhr",
+      "source_era": "20th c. translation",
+      "boilerplate_frac": 0.1,
+      "content_cluster": "wiki-udhr-art1",
+      "evidence": "Near-duplicate of fw2_cho_11 (mobile mirror, ʋ variant)"
+    },
+    {
+      "doc_id": "fw2_cho_test_0",
+      "url": "https://incubator.wikimedia.org/wiki/Wp/cho/Ai%CA%8Blhepiesa_Makosh_%C6%B2lhpisa",
+      "is_target_language": "yes",
+      "genre": "udhr",
+      "source_era": "20th c. translation",
+      "boilerplate_frac": 0.0,
+      "content_cluster": "wiki-udhr-art1",
+      "evidence": "SOLE document of the cho_Latn TEST split; near-duplicate of train docs fw2_cho_11 and fw2_cho_12 (same UDHR Art. 1 text)"
+    },
+    {
+      "doc_id": "fw2_mus_0",
+      "url": "https://www.scribd.com/doc/135862892/Tug-of-war-between-the-tie-snakes",
+      "is_target_language": "partial",
+      "genre": "traditional-story",
+      "source_era": "early 20th c. collection",
+      "boilerplate_frac": 0.3,
+      "content_cluster": "scribd-tie-snakes",
+      "evidence": "Genuine Creek folk narrative (tie-snakes) interleaved with Scribd UI boilerplate and page-number noise; language_score 0.489"
+    },
+    {
+      "doc_id": "fw2_mus_1",
+      "url": "https://books.google.com/books/about/Acts_and_resolutions_of_the_Creek_Nation.html?id=9K5FAQAAIAAJ&hl=en",
+      "is_target_language": "partial",
+      "genre": "gb-index-terms",
+      "source_era": "1890s (Creek Nation acts)",
+      "boilerplate_frac": 0.15,
+      "content_cluster": "gb-creek-acts",
+      "evidence": "Google Books index-term cloud from Creek Nation legislative acts"
+    },
+    {
+      "doc_id": "fw2_mus_2",
+      "url": "http://www.seghea.com/pat/bible/muskogee.html",
+      "is_target_language": "yes",
+      "genre": "bible",
+      "source_era": "19th c. translation",
+      "boilerplate_frac": 0.05,
+      "content_cluster": "seghea-nt-verses",
+      "evidence": "NT verse selection in Muscogee; page note 'requires the Latvian font' (diacritic hack)"
+    },
+    {
+      "doc_id": "fw2_mus_3",
+      "url": "https://books.google.com/books/about/Acts_and_resolutions_of_the_Creek_Nation.html?id=FD2QAAAAMAAJ&hl=en",
+      "is_target_language": "partial",
+      "genre": "gb-index-terms",
+      "source_era": "1890s (Creek Nation acts)",
+      "boilerplate_frac": 0.15,
+      "content_cluster": "gb-creek-acts",
+      "evidence": "Another edition of the same Creek Nation acts, same index-cloud phenomenon"
+    },
+    {
+      "doc_id": "fw2_mus_4",
+      "url": "http://www.languagegeek.com/se/languages/mas_example.html",
+      "is_target_language": "yes",
+      "genre": "traditional-story",
+      "source_era": "1915 (Earnest Gouge), modernized orthography",
+      "boilerplate_frac": 0.15,
+      "content_cluster": "gouge-hunter-dogs",
+      "evidence": "'The Hunter and his Dogs' by Earnest Gouge 1915, orthography updated per Totkv Mocvse"
+    },
+    {
+      "doc_id": "fw2_mus_5",
+      "url": "https://books.google.com/books?id=5-fJd9acyOUC&lpg",
+      "is_target_language": "partial",
+      "genre": "gb-index-terms",
+      "source_era": "1890s (Creek Nation acts, Dawes era)",
+      "boilerplate_frac": 0.15,
+      "content_cluster": "gb-creek-acts",
+      "evidence": "Third Google Books index cloud of Creek Nation legislative material (Dawes Commission terms)"
+    },
+    {
+      "doc_id": "fw2_mus_6",
+      "url": "https://archive.org/stream/rosettaproject_mus_gen-1/rosettaproject_mus_gen-1_djvu.txt",
+      "is_target_language": "yes",
+      "genre": "bible",
+      "source_era": "19th c. (ABS Muskokee Genesis)",
+      "boilerplate_frac": 0.02,
+      "content_cluster": "rosetta-genesis",
+      "evidence": "OCR of ABS Genesis in Muscogee; visible OCR noise (raumvtes, fivthvyvtlvc)"
+    },
+    {
+      "doc_id": "fw2_mus_7",
+      "url": "https://www.ekvn-yefolecv.org/about",
+      "is_target_language": "yes",
+      "genre": "community",
+      "source_era": "contemporary",
+      "boilerplate_frac": 0.2,
+      "content_cluster": "ekvn-about",
+      "evidence": "Ekvn-Yefolecv ecovillage About page; contemporary community-authored Maskoke prose; English closing section"
+    },
+    {
+      "doc_id": "fw2_mus_8",
+      "url": "https://www.ekvn-yefolecv.org/about",
+      "is_target_language": "yes",
+      "genre": "community",
+      "source_era": "contemporary",
+      "boilerplate_frac": 0.35,
+      "content_cluster": "ekvn-about",
+      "evidence": "Same URL as fw2_mus_7, different crawl with more English; language_score 0.494"
+    },
+    {
+      "doc_id": "fw2_mus_9",
+      "url": "https://omniglot.com/language/phrases/creek.htm",
+      "is_target_language": "partial",
+      "genre": "wordlist-phrases",
+      "source_era": "contemporary reference",
+      "boilerplate_frac": 0.4,
+      "content_cluster": "omniglot-phrases-mus",
+      "evidence": "English-Muscogee phrase table with heavy English scaffolding and affiliate boilerplate; language_score 0.439"
+    },
+    {
+      "doc_id": "glotcc_cho_0",
+      "url": "https://omniglot.com/babel/choctaw.htm",
+      "is_target_language": "yes",
+      "genre": "bible",
+      "source_era": "1867 (ABS Choctaw Pentateuch)",
+      "boilerplate_frac": 0.15,
+      "content_cluster": "omniglot-babel-cho",
+      "evidence": "Tower of Babel excerpt, identical 2260-char content to glotcc_cho_1 and glotcc_cho_3"
+    },
+    {
+      "doc_id": "glotcc_cho_1",
+      "url": "https://www.omniglot.com/babel/choctaw.htm",
+      "is_target_language": "yes",
+      "genre": "bible",
+      "source_era": "1867 (ABS Choctaw Pentateuch)",
+      "boilerplate_frac": 0.15,
+      "content_cluster": "omniglot-babel-cho",
+      "evidence": "Byte-identical to glotcc_cho_0; www vs non-www URL defeated dedup"
+    },
+    {
+      "doc_id": "glotcc_cho_2",
+      "url": "https://incubator.m.wikimedia.org/wiki/Wp/cho/Nan_%CA%8Alhpisa_pokoli",
+      "is_target_language": "yes",
+      "genre": "wiki-canonical",
+      "source_era": "19th c. orthography",
+      "boilerplate_frac": 0.05,
+      "content_cluster": "wiki-ten-commandments",
+      "evidence": "Ten Commandments incubator page; same underlying text as fw2_cho_4/8"
+    },
+    {
+      "doc_id": "glotcc_cho_3",
+      "url": "https://www.omniglot.com/babel/choctaw.htm",
+      "is_target_language": "yes",
+      "genre": "bible",
+      "source_era": "1867 (ABS Choctaw Pentateuch)",
+      "boilerplate_frac": 0.15,
+      "content_cluster": "omniglot-babel-cho",
+      "evidence": "Third copy of the identical omniglot content in a 4-document corpus"
+    }
+  ]
+}

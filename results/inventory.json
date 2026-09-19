@@ -1,0 +1,158 @@
+[
+  {
+    "subset": "fineweb-2/cho_Latn",
+    "docs": 14,
+    "total_chars": 26055,
+    "median_chars": 946,
+    "unique_domains": 8,
+    "top_domains": {
+      "incubator.wikimedia.org": 2,
+      "books.google.com": 2,
+      "www.bible.com": 2,
+      "omniglot.com": 2,
+      "choctawbible.com": 2,
+      "incubator.m.wikimedia.org": 2,
+      "www.jw.org": 1,
+      "cho.wikipedia.org": 1
+    },
+    "columns": [
+      "text",
+      "id",
+      "dump",
+      "url",
+      "date",
+      "file_path",
+      "language",
+      "language_score",
+      "language_script",
+      "minhash_cluster_size",
+      "top_langs",
+      "wordlist_ratio"
+    ]
+  },
+  {
+    "subset": "fineweb-2/cho_Latn_removed",
+    "docs": 853,
+    "total_chars": 929627,
+    "median_chars": 59,
+    "unique_domains": 297,
+    "top_domains": {
+      "taaasty.com": 146,
+      "about.me": 74,
+      "mishkahenner.com": 50,
+      "ashtonmitchell.com.foxmos.com": 22,
+      "www.nakedchicpics.com": 13,
+      "ikohchang.com.foxmos.com": 12,
+      "www.mydress.co.uk": 12,
+      "nakedchicpics.com": 12,
+      "incubator.wikimedia.org": 11,
+      "www.hungry.com": 10
+    },
+    "columns": [
+      "text",
+      "id",
+      "dump",
+      "url",
+      "date",
+      "file_path",
+      "language",
+      "language_score",
+      "language_script",
+      "top_langs",
+      "minhash_cluster_size",
+      "filter_reason",
+      "wordlist_ratio"
+    ]
+  },
+  {
+    "subset": "fineweb-2/mus_Latn",
+    "docs": 10,
+    "total_chars": 38991,
+    "median_chars": 3075,
+    "unique_domains": 7,
+    "top_domains": {
+      "books.google.com": 3,
+      "www.ekvn-yefolecv.org": 2,
+      "www.scribd.com": 1,
+      "www.seghea.com": 1,
+      "www.languagegeek.com": 1,
+      "archive.org": 1,
+      "omniglot.com": 1
+    },
+    "columns": [
+      "text",
+      "id",
+      "dump",
+      "url",
+      "date",
+      "file_path",
+      "language",
+      "language_score",
+      "language_script",
+      "minhash_cluster_size",
+      "top_langs",
+      "wordlist_ratio"
+    ]
+  },
+  {
+    "subset": "fineweb-2/mus_Latn_removed",
+    "docs": 14255,
+    "total_chars": 13481205,
+    "median_chars": 15,
+    "unique_domains": 952,
+    "top_domains": {
+      "xemvn.net": 6231,
+      "www.acncn.net": 2975,
+      "ehenx.com": 358,
+      "www.vrt.be": 261,
+      "app.myvet2pet.com": 212,
+      "mtv.tumblr.com": 195,
+      "www.ridewithhawthornehill.com": 130,
+      "www.nvnickverreos.com": 119,
+      "www.gocektv.com": 108,
+      "www.globethics-live.net": 101
+    },
+    "columns": [
+      "text",
+      "id",
+      "dump",
+      "url",
+      "date",
+      "file_path",
+      "language",
+      "language_score",
+      "language_script",
+      "top_langs",
+      "minhash_cluster_size",
+      "filter_reason",
+      "wordlist_ratio"
+    ]
+  },
+  {
+    "subset": "glotcc/cho-Latn",
+    "docs": 4,
+    "total_chars": 8579,
+    "median_chars": 2260,
+    "unique_domains": 3,
+    "top_domains": {
+      "www.omniglot.com": 2,
+      "omniglot.com": 1,
+      "incubator.m.wikimedia.org": 1
+    },
+    "columns": [
+      "content",
+      "warc-target-uri",
+      "warc-date",
+      "warc-record-id",
+      "quality-warnings",
+      "categories",
+      "identification-language",
+      "identification-prob",
+      "identification-consistency",
+      "script-percentage",
+      "num-sents",
+      "content-length",
+      "tlsh"
+    ]
+  }
+]

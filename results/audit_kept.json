@@ -1,0 +1,80 @@
+{
+  "n_docs": 28,
+  "per_subset": {
+    "fw2_cho": {
+      "n_docs": 14,
+      "total_chars": 26055,
+      "is_target": {
+        "partial": 2,
+        "yes": 12
+      },
+      "genre": {
+        "gb-index-terms": 2,
+        "religious-org": 3,
+        "bible": 4,
+        "wiki-canonical": 2,
+        "udhr": 3
+      },
+      "n_content_clusters": 9,
+      "duplicated_docs": 9,
+      "religious_char_frac": 0.881,
+      "contemporary_char_frac": 0.065,
+      "mean_boilerplate_frac": 0.1
+    },
+    "fw2_mus": {
+      "n_docs": 10,
+      "total_chars": 38991,
+      "is_target": {
+        "partial": 5,
+        "yes": 5
+      },
+      "genre": {
+        "traditional-story": 2,
+        "gb-index-terms": 3,
+        "bible": 2,
+        "community": 2,
+        "wordlist-phrases": 1
+      },
+      "n_content_clusters": 7,
+      "duplicated_docs": 5,
+      "religious_char_frac": 0.449,
+      "contemporary_char_frac": 0.262,
+      "mean_boilerplate_frac": 0.192
+    },
+    "glotcc_cho": {
+      "n_docs": 4,
+      "total_chars": 8579,
+      "is_target": {
+        "yes": 4
+      },
+      "genre": {
+        "bible": 3,
+        "wiki-canonical": 1
+      },
+      "n_content_clusters": 2,
+      "duplicated_docs": 3,
+      "religious_char_frac": 1.0,
+      "contemporary_char_frac": 0.0,
+      "mean_boilerplate_frac": 0.125
+    }
+  },
+  "overall": {
+    "n_content_clusters": 16,
+    "docs_in_multi_doc_clusters": 18,
+    "is_target": {
+      "partial": 7,
+      "yes": 21
+    },
+    "genre_chars": {
+      "bible": 41784,
+      "community": 6150,
+      "gb-index-terms": 5479,
+      "religious-org": 1700,
+      "traditional-story": 7653,
+      "udhr": 1212,
+      "wiki-canonical": 5566,
+      "wordlist-phrases": 4081
+    },
+    "test_split_contamination": "cho_Latn test split = 1 doc (fw2_cho_test_0), near-duplicate of train docs fw2_cho_11, fw2_cho_12 (UDHR Art. 1)"
+  }
+}

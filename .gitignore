@@ -1,0 +1,23 @@
+data/raw/
+data/audit/*
+!data/audit/annotations_kept.json
+!data/audit/annotations_removed_domains.json
+data/seed_pages/
+data/seed/
+.venv/
+__pycache__/
+
+# local development files (not part of the public release)
+PROGRESS.md
+SUMMARY.md
+FAILURES.md
+REVISIONS.md
+overleaf/
+paper/main.aux
+paper/main.log
+paper/main.out
+paper/main.bbl
+paper/main.blg
+src/export_overleaf.py
+src/strip_emdash.py
+paper/

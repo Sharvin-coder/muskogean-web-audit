@@ -1,0 +1,679 @@
+{
+  "per_segment": [
+    {
+      "lang": "cho",
+      "name": "udhr_art1",
+      "type": "running",
+      "url": "http://cho.wikipedia.org/wiki/Ai%CA%8Alhepiesa_Makosh_%C6%B1lhpisa",
+      "n_chars": 332,
+      "expected": "cho_Latn",
+      "full": [
+        [
+          "cho_Latn",
+          0.999
+        ],
+        [
+          "ood_Latn",
+          0.0
+        ],
+        [
+          "amp_Latn",
+          0.0
+        ]
+      ],
+      "no_diacrit": [
+        [
+          "cho_Latn",
+          0.999
+        ],
+        [
+          "ood_Latn",
+          0.0
+        ],
+        [
+          "ape_Latn",
+          0.0
+        ]
+      ],
+      "chunks8": {
+        "n_chunks": 7,
+        "label_dist": {
+          "cho_Latn": 7
+        }
+      },
+      "full_correct": true,
+      "no_diacrit_correct": true,
+      "chunks8_recall": 1.0
+    },
+    {
+      "lang": "cho",
+      "name": "jw_modern",
+      "type": "running",
+      "url": "https://www.jw.org/cho/",
+      "n_chars": 523,
+      "expected": "cho_Latn",
+      "full": [
+        [
+          "cho_Latn",
+          0.987
+        ],
+        [
+          "npl_Latn",
+          0.002
+        ],
+        [
+          "vid_Latn",
+          0.001
+        ]
+      ],
+      "no_diacrit": [
+        [
+          "cho_Latn",
+          0.952
+        ],
+        [
+          "npl_Latn",
+          0.008
+        ],
+        [
+          "vid_Latn",
+          0.006
+        ]
+      ],
+      "chunks8": {
+        "n_chunks": 9,
+        "label_dist": {
+          "cho_Latn": 7,
+          "kak_Latn": 1,
+          "hsb_Latn": 1
+        }
+      },
+      "full_correct": true,
+      "no_diacrit_correct": true,
+      "chunks8_recall": 0.778
+    },
+    {
+      "lang": "cho",
+      "name": "bible_abs",
+      "type": "running",
+      "url": "https://www.bible.com/bible/1927/MRK.1.CHTW",
+      "n_chars": 1500,
+      "expected": "cho_Latn",
+      "full": [
+        [
+          "cho_Latn",
+          1.0
+        ],
+        [
+          "maj_Latn",
+          0.0
+        ],
+        [
+          "kcg_Latn",
+          0.0
+        ]
+      ],
+      "no_diacrit": [
+        [
+          "cho_Latn",
+          0.997
+        ],
+        [
+          "blw_Latn",
+          0.0
+        ],
+        [
+          "bea_Latn",
+          0.0
+        ]
+      ],
+      "chunks8": {
+        "n_chunks": 27,
+        "label_dist": {
+          "cho_Latn": 26,
+          "sag_Latn": 1
+        }
+      },
+      "full_correct": true,
+      "no_diacrit_correct": true,
+      "chunks8_recall": 0.963
+    },
+    {
+      "lang": "cho",
+      "name": "aca_tagline",
+      "type": "running",
+      "url": "https://www.touchstoneimaging.com/nondiscrimination-statement/chahta-choctaw/",
+      "n_chars": 194,
+      "expected": "cho_Latn",
+      "full": [
+        [
+          "cho_Latn",
+          0.992
+        ],
+        [
+          "ifu_Latn",
+          0.001
+        ],
+        [
+          "lex_Latn",
+          0.001
+        ]
+      ],
+      "no_diacrit": [
+        [
+          "cho_Latn",
+          0.992
+        ],
+        [
+          "ifu_Latn",
+          0.001
+        ],
+        [
+          "lex_Latn",
+          0.001
+        ]
+      ],
+      "chunks8": {
+        "n_chunks": 4,
+        "label_dist": {
+          "cho_Latn": 3,
+          "slv_Latn": 1
+        }
+      },
+      "full_correct": true,
+      "no_diacrit_correct": true,
+      "chunks8_recall": 0.75
+    },
+    {
+      "lang": "cho",
+      "name": "school_lesson",
+      "type": "wordlist",
+      "url": "http://www.choctawschool.com/vocabulary/vocabulary/for-all-chapters.aspx",
+      "n_chars": 202,
+      "expected": "cho_Latn",
+      "full": [
+        [
+          "cho_Latn",
+          0.865
+        ],
+        [
+          "mak_Latn",
+          0.026
+        ],
+        [
+          "rnl_Latn",
+          0.018
+        ]
+      ],
+      "no_diacrit": [
+        [
+          "cho_Latn",
+          0.865
+        ],
+        [
+          "mak_Latn",
+          0.026
+        ],
+        [
+          "rnl_Latn",
+          0.018
+        ]
+      ],
+      "chunks8": {
+        "n_chunks": 4,
+        "label_dist": {
+          "cho_Latn": 1,
+          "mrg_Latn": 1,
+          "mcn_Latn": 1,
+          "hub_Latn": 1
+        }
+      },
+      "full_correct": true,
+      "no_diacrit_correct": true,
+      "chunks8_recall": 0.25
+    },
+    {
+      "lang": "mus",
+      "name": "udhr_art1",
+      "type": "running",
+      "url": "https://omniglot.com/writing/creek.htm",
+      "n_chars": 244,
+      "expected": "mus_Latn",
+      "full": [
+        [
+          "mus_Latn",
+          1.0
+        ],
+        [
+          "kpz_Latn",
+          0.0
+        ],
+        [
+          "ojb_Cans",
+          0.0
+        ]
+      ],
+      "no_diacrit": [
+        [
+          "mus_Latn",
+          1.0
+        ],
+        [
+          "kpz_Latn",
+          0.0
+        ],
+        [
+          "ojb_Cans",
+          0.0
+        ]
+      ],
+      "chunks8": {
+        "n_chunks": 4,
+        "label_dist": {
+          "mus_Latn": 4
+        }
+      },
+      "full_correct": true,
+      "no_diacrit_correct": true,
+      "chunks8_recall": 1.0
+    },
+    {
+      "lang": "mus",
+      "name": "community_modern",
+      "type": "running",
+      "url": "https://www.ekvn-yefolecv.org/about",
+      "n_chars": 1000,
+      "expected": "mus_Latn",
+      "full": [
+        [
+          "mus_Latn",
+          1.0
+        ],
+        [
+          "amp_Latn",
+          0.0
+        ],
+        [
+          "kpz_Latn",
+          0.0
+        ]
+      ],
+      "no_diacrit": [
+        [
+          "mus_Latn",
+          1.0
+        ],
+        [
+          "kpz_Latn",
+          0.0
+        ],
+        [
+          "amp_Latn",
+          0.0
+        ]
+      ],
+      "chunks8": {
+        "n_chunks": 15,
+        "label_dist": {
+          "mus_Latn": 15
+        }
+      },
+      "full_correct": true,
+      "no_diacrit_correct": true,
+      "chunks8_recall": 1.0
+    },
+    {
+      "lang": "mus",
+      "name": "gouge_1915",
+      "type": "running",
+      "url": "http://www.languagegeek.com/se/languages/mas_example.html",
+      "n_chars": 899,
+      "expected": "mus_Latn",
+      "full": [
+        [
+          "mus_Latn",
+          1.0
+        ],
+        [
+          "kpz_Latn",
+          0.0
+        ],
+        [
+          "kup_Latn",
+          0.0
+        ]
+      ],
+      "no_diacrit": [
+        [
+          "mus_Latn",
+          1.0
+        ],
+        [
+          "kpz_Latn",
+          0.0
+        ],
+        [
+          "kup_Latn",
+          0.0
+        ]
+      ],
+      "chunks8": {
+        "n_chunks": 16,
+        "label_dist": {
+          "mus_Latn": 16
+        }
+      },
+      "full_correct": true,
+      "no_diacrit_correct": true,
+      "chunks8_recall": 1.0
+    },
+    {
+      "lang": "mus",
+      "name": "prayer",
+      "type": "running",
+      "url": "http://marysrosaries.com/Muskogee_prayers.html",
+      "n_chars": 397,
+      "expected": "mus_Latn",
+      "full": [
+        [
+          "mus_Latn",
+          1.0
+        ],
+        [
+          "kup_Latn",
+          0.0
+        ],
+        [
+          "kpz_Latn",
+          0.0
+        ]
+      ],
+      "no_diacrit": [
+        [
+          "mus_Latn",
+          1.0
+        ],
+        [
+          "kpz_Latn",
+          0.0
+        ],
+        [
+          "kup_Latn",
+          0.0
+        ]
+      ],
+      "chunks8": {
+        "n_chunks": 7,
+        "label_dist": {
+          "mus_Latn": 7
+        }
+      },
+      "full_correct": true,
+      "no_diacrit_correct": true,
+      "chunks8_recall": 1.0
+    },
+    {
+      "lang": "cic",
+      "name": "udhr_art1",
+      "type": "running",
+      "url": "https://omniglot.com/writing/chickasaw.htm",
+      "n_chars": 137,
+      "expected": "NO_LABEL_EXISTS",
+      "full": [
+        [
+          "cho_Latn",
+          0.739
+        ],
+        [
+          "bla_Latn",
+          0.215
+        ],
+        [
+          "zad_Latn",
+          0.009
+        ]
+      ],
+      "no_diacrit": [
+        [
+          "cho_Latn",
+          0.8
+        ],
+        [
+          "fit_Latn",
+          0.085
+        ],
+        [
+          "bla_Latn",
+          0.047
+        ]
+      ],
+      "chunks8": {
+        "n_chunks": 3,
+        "label_dist": {
+          "cho_Latn": 2,
+          "gaz_Latn": 1
+        }
+      },
+      "full_correct": null,
+      "no_diacrit_correct": null
+    },
+    {
+      "lang": "cic",
+      "name": "udhr_art1_cleaned",
+      "type": "running",
+      "url": "https://omniglot.com/writing/chickasaw.htm",
+      "n_chars": 131,
+      "expected": "NO_LABEL_EXISTS",
+      "full": [
+        [
+          "cho_Latn",
+          0.527
+        ],
+        [
+          "bla_Latn",
+          0.407
+        ],
+        [
+          "fit_Latn",
+          0.015
+        ]
+      ],
+      "no_diacrit": [
+        [
+          "cho_Latn",
+          0.607
+        ],
+        [
+          "bla_Latn",
+          0.115
+        ],
+        [
+          "zad_Latn",
+          0.081
+        ]
+      ],
+      "chunks8": {
+        "n_chunks": 2,
+        "label_dist": {
+          "cho_Latn": 1,
+          "bla_Latn": 1
+        }
+      },
+      "full_correct": null,
+      "no_diacrit_correct": null
+    },
+    {
+      "lang": "cku",
+      "name": "poem",
+      "type": "running",
+      "url": "https://omniglot.com/writing/koasati.htm",
+      "n_chars": 180,
+      "expected": "NO_LABEL_EXISTS",
+      "full": [
+        [
+          "rel_Latn",
+          0.88
+        ],
+        [
+          "gaz_Latn",
+          0.033
+        ],
+        [
+          "kbr_Latn",
+          0.018
+        ]
+      ],
+      "no_diacrit": [
+        [
+          "rel_Latn",
+          0.88
+        ],
+        [
+          "gaz_Latn",
+          0.033
+        ],
+        [
+          "kbr_Latn",
+          0.018
+        ]
+      ],
+      "chunks8": {
+        "n_chunks": 2,
+        "label_dist": {
+          "rel_Latn": 2
+        }
+      },
+      "full_correct": null,
+      "no_diacrit_correct": null
+    },
+    {
+      "lang": "mik",
+      "name": "creation_story",
+      "type": "running",
+      "url": "https://omniglot.com/writing/mikasuki.htm",
+      "n_chars": 248,
+      "expected": "NO_LABEL_EXISTS",
+      "full": [
+        [
+          "bea_Latn",
+          0.42
+        ],
+        [
+          "ojb_Latn",
+          0.168
+        ],
+        [
+          "kbr_Latn",
+          0.076
+        ]
+      ],
+      "no_diacrit": [
+        [
+          "bea_Latn",
+          0.474
+        ],
+        [
+          "ojb_Latn",
+          0.166
+        ],
+        [
+          "kbr_Latn",
+          0.078
+        ]
+      ],
+      "chunks8": {
+        "n_chunks": 3,
+        "label_dist": {
+          "bea_Latn": 2,
+          "gof_Latn": 1
+        }
+      },
+      "full_correct": null,
+      "no_diacrit_correct": null
+    },
+    {
+      "lang": "akz",
+      "name": "vocab_list",
+      "type": "wordlist",
+      "url": "https://www.native-languages.org/alabama_words.htm",
+      "n_chars": 517,
+      "expected": "NO_LABEL_EXISTS",
+      "full": [
+        [
+          "eng_Latn",
+          0.328
+        ],
+        [
+          "swh_Latn",
+          0.206
+        ],
+        [
+          "yor_Latn",
+          0.064
+        ]
+      ],
+      "no_diacrit": [
+        [
+          "swh_Latn",
+          0.311
+        ],
+        [
+          "eng_Latn",
+          0.265
+        ],
+        [
+          "dag_Latn",
+          0.067
+        ]
+      ],
+      "chunks8": {
+        "n_chunks": 10,
+        "label_dist": {
+          "eng_Latn": 6,
+          "swh_Latn": 2,
+          "yor_Latn": 1,
+          "bam_Latn": 1
+        }
+      },
+      "full_correct": null,
+      "no_diacrit_correct": null
+    }
+  ],
+  "labeled_langs_full_acc": {
+    "cho": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "mus": [
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  "unlabeled_lang_assignments": {
+    "cic/udhr_art1": [
+      "cho_Latn",
+      0.739
+    ],
+    "cic/udhr_art1_cleaned": [
+      "cho_Latn",
+      0.527
+    ],
+    "cku/poem": [
+      "rel_Latn",
+      0.88
+    ],
+    "mik/creation_story": [
+      "bea_Latn",
+      0.42
+    ],
+    "akz/vocab_list": [
+      "eng_Latn",
+      0.328
+    ]
+  }
+}
